@@ -51,4 +51,24 @@ function log(...args){
     console.log(args);
 
 }
-log('hello', 'bye')
+log('hello', 'bye');
+
+/// invoking function methods
+    // way 1
+function sayhello(){
+    return 'hello'
+}
+const hello = sayhello;
+console.log(hello());
+
+    // es 6
+const greetMe = (name) => console.log(name);
+greetMe('Goldy');
+
+
+// if no args and parameter : empty brackets
+const tap = _ => console.log('fetching records');
+tap();
+
+
+///
