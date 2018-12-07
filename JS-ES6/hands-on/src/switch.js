@@ -230,3 +230,10 @@ async function errorHandler(){
     }
 }
 
+////////////////ES6 design pattern
+
+function anc(){
+    var ulTag = document.createElement("ul");
+    var liTag = ulTag.innerHTML = '<li class="toggle">Jan</li>';
+}
+
